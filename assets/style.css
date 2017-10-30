@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+.top-container {
+    background-color: #ffffff;
+    height: 12%;
+    border-bottom: #cccccc solid 3px;
+}
+
+.body-container {
+    background-image: url("../images/intersection.png");
+    background-repeat: repeat;
+    min-height: 78%;
+    overflow: auto;
+}
+
+header {
+    float: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    height: 100%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 0px 30px;   
+}
+
+#navigation {
+    padding-top: 27px;
+    float: right;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: darkgrey;
+}
+
+#aboutme {
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    padding: 20px;
+}
+
+#contactme {
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    padding: 20px;
+}
+
+#portfolio {
+    float: left;
+    width: 650px;
+    background-color: #ffffff;
+    border: #cccccc solid 1px;
+    padding: 20px;
+}
+
+#aboutme, #contactme, #portfolio {
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#connectwithme {
+    height: 200px;
+    width: 270px;
+    background-color: #ffffff;
+    margin-left: 3%;
+    float: right;
+    border: #cccccc solid 1px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #666666;
+    height: 75px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    border-top: #4aaaa5 solid 5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.topcentering {
+    width: 960px;
+    height: 20px;
+    margin-left: 6%;
+    height: 100%;
+}
+
+.bodycentering {
+    width: 960px;
+    height: 20px;
+    margin-left: 6%;
+    margin-top: 20px;
+    height: 100%;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contenttitle {
+    margin-top: 0px;
+    color: #4aaaa5;
+    font-size: xx-large;
+}
+
+.connecttitle {
+    font-size: x-large;
+    margin-top: 0px;
+    color: #4aaaa5;
+}
+
+h {
+    margin-top: 0px;
+}
+
+.divhrdark {
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    margin-bottom: 29px;
+}
+
+.divhrlight {
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+.icon {
+    margin: 20px 5px 0px;
+}
+
+.iconsdiv {
+    text-align: center;
+    width: 210px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.headerlink {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+img {
+    float: left;
+}
+
+.headshot {
+    margin: 0px 17px 10px 0px;
+}
+
+.aboutmetext {
+    margin-top: -6px;
+    line-height: 183%;
+}
+
+.portfolioimages {
+    width: 96%;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    margin: 20px;
+}
+
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    width: 290px;
+    height: 248px;
+    float: left;
+}
+
+.center {
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    background-color: #4aaaa5;
+    padding: 15px 0px;
+    font-size: 132%;
+    color: white;
+}
+
+.formtext {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    padding: 10px 20px;
+    border: 0;
+    color: white;
+    margin-top: 10px;
+    font-size: 93%;
+}

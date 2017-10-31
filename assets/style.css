@@ -4,7 +4,7 @@
 
 .top-container {
     background-color: #ffffff;
-    height: 12%;
+    height: 81px;
     border-bottom: #cccccc solid 3px;
 }
 
@@ -29,7 +29,7 @@ body {
     color: white;
     height: 100%;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 0px 30px;   
+    padding: 0px 30px;
 }
 
 #navigation {
@@ -93,17 +93,16 @@ html, body {
 
 .topcentering {
     width: 960px;
-    height: 20px;
-    margin-left: 6%;
     height: 100%;
+    margin-left: 6%;
 }
 
 .bodycentering {
     width: 960px;
-    height: 20px;
     margin-left: 6%;
     margin-top: 20px;
     height: 100%;
+    overflow: auto;
 }
 
 p {
@@ -221,4 +220,151 @@ img {
     color: white;
     margin-top: 10px;
     font-size: 93%;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .topcentering {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .bodycentering {
+        width: 80%;
+        margin-left: 6%;
+        height: 100%;
+        overflow: auto;
+        margin: 20px auto 0;
+    }
+
+    #aboutme {
+        float: left;
+        width: 50%;
+        background-color: #ffffff;
+        border: #cccccc solid 1px;
+        padding: 20px;
+    }
+
+    #connectwithme {
+        height: 200px;
+        width: 270px;
+        background-color: #ffffff;
+        margin-left: 3%;
+        float: right;
+        border: #cccccc solid 1px;
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+        
+    .topcentering {
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .bodycentering {
+        width: 95%;
+        margin-left: 6%;
+        height: 100%;
+        overflow: auto;
+        margin: 20px auto 0;
+    }
+
+    #aboutme {
+        float: left;
+        width: 100%;
+        background-color: #ffffff;
+        border: #cccccc solid 1px;
+        padding: 20px;
+    }
+
+    #connectwithme {
+        height: 200px;
+        width: 100%;
+        background-color: #ffffff;
+        float: left;
+        border: #cccccc solid 1px;
+        padding: 20px;
+        clear: left;
+        margin: 0 0 20px 0;
+    }
+    
+}
+
+@media screen and (max-width: 640px) {
+   
+    .top-container {
+        background-color: #ffffff;
+        height: 140px;
+        border-bottom: #cccccc solid 3px;
+        overflow: auto;
+    }
+
+    .topcentering {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .bodycentering {
+        width: 95%;
+        margin-left: 6%;
+        height: 100%;
+        overflow: auto;
+        margin: 20px auto 0;
+    }
+
+    #aboutme {
+        float: left;
+        width: 100%;
+        background-color: #ffffff;
+        border: #cccccc solid 1px;
+        padding: 20px;
+    }
+
+    #portfolio {
+        float: left;
+        width: 100%;
+        background-color: #ffffff;
+        border: #cccccc solid 1px;
+        padding: 20px;
+    }
+
+    #connectwithme {
+        height: 200px;
+        width: 100%;
+        background-color: #ffffff;
+        float: left;
+        border: #cccccc solid 1px;
+        padding: 20px;
+        clear: left;
+        margin: 0 0 20px 0;
+        }
+
+    #name {
+        background-color: #4aaaa5;
+        color: white;
+        height: 80px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        padding: 0px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #navigation {
+        padding-top: 19px;
+        float: left;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: darkgrey;
+        clear: left;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        word-spacing: 13px;
+    }
+
 }

@@ -185,6 +185,13 @@ img {
     margin: 20px;
 }
 
+/* This dictates the sizing of the portfolio images */
+
+.portfolio-img {
+    width: 250px;
+    height: 208px;
+}
+
 /* Specific styling for the headshot image that appears in the left body panel
 on the About Me page */
 
@@ -295,7 +302,15 @@ so that the fields span the full width of left body panel */
         border: #cccccc solid 1px;
         padding: 20px;
     }
-    
+
+    .imgcontainer {
+    position: relative;
+    text-align: center;
+    width: 290px;
+    height: 248px;
+    float: none;
+    margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -333,6 +348,15 @@ so that the fields span the full width of left body panel */
         margin: 0 0 20px 0;
     }
     
+    .imgcontainer {
+    position: relative;
+    text-align: center;
+    width: 290px;
+    height: 248px;
+    float: left;
+    margin: 0 auto;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -405,6 +429,15 @@ so that the fields span the full width of left body panel */
         height: 60px;
         text-align: center;
         word-spacing: 13px;
+    }
+
+    .imgcontainer {
+        position: relative;
+        text-align: center;
+        width: 290px;
+        height: 248px;
+        float: none;
+        margin: 0 auto;
     }
 
 }
